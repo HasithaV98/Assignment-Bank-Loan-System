@@ -1,0 +1,26 @@
+The research paper titled "Identification and Classification of Fruit Defects Using Image Processing" addresses the growing
+ need for efficient and automated methods for inspecting and sorting fruits based on their quality. In the context of image
+ processing, this work aims to develop an algorithm that can identify defects in fruits and classify them based on digital
+ image analysis. The importance of this research lies in its potential to reduce labor costs, increase efficiency, and
+ ensure consistent quality in the sorting process of fruits.
+
+Several methodologies have been explored in the literature for applying image processing techniques to agricultural
+ produce and fruit quality assessment. Computer vision systems and image analysis have been widely utilized for
+ tasks such as classification, identification, quality evaluation, and grading of agricultural products [4] [9].
+ Various techniques have been employed to achieve accurate defect detection and classification in fruit images:
+
+SURF technique extracts robust features from fruit images, comparing them with database images for classification
+using square-shaped filters and Gaussian smoothing. Blob detection technique identifies defects in fruits by comparing
+color properties and calculating the major axis for fruit size detection, crucial for sorting applications.Thresholding 
+techniques, such as K-means clustering, marker-controlled watershed segmentation, Otsu's thresholding, and Gabor filtering, 
+aid in defect detection by segmenting fruit images for analysis.Utilization of RGB and HSV color space models in automatic
+fruit defect detection system utilizes computer vision and image 
+analysis for effective segmentation.
+
+The proposed methodology in this paper involves several stages for defect detection and classification:RGB image
+undergoes pre-processing, converting to grayscale, and subsequently to binary image using filtering techniques.
+Background subtraction reduces processed data, improving performance by separating fruit from background.
+Feature extraction calculates fruit area relative to entire image, identifying potential defects.
+Defect detection involves analyzing surface defects like scars, using contour extraction and filling.
+A quality ratio threshold is applied to classify fruits as defected or fresh. Further enhancements include disease 
+detection, statistical comparisons, and advanced grading methods.
